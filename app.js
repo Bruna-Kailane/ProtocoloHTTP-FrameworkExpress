@@ -4,10 +4,10 @@ const formCadastroUser = require('./paginas/formCadastroUser');
 const validaCadastro = require('./paginas/validaCadastro');
 const formLogin = require('./paginas/formLogin');
 const validaLogin = require('./paginas/validaLogin');
-const app = express();
+let usuarios = [];
 
-//app.use(express.static('public'));
-//post
+const app = express();
+app.use(express.static('public'));
 app.use(express.urlencoded({ extended: false }));
 
 app.get('/', index);

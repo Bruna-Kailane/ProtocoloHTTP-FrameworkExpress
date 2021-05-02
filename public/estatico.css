@@ -1,0 +1,18 @@
+body {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Rye", cursive;
+  color: #000000;
+  text-shadow: 2px 2px 8px #ffc8c8da;
+  background-color: #ffcdcdd3;
+}
+
+button {
+  color: #33313b;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 8px #4592af;
+}

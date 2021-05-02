@@ -13,7 +13,7 @@ module.exports = (req, res) => {
           <input type="password" name="senha" id="senha">
         </div>
         <div>
-          <button type="submit">Cadastrar</button>
+          <button class="button" type="submit">Cadastrar</button>
         </div>
       </form>`
   );
