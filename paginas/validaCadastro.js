@@ -1,10 +1,10 @@
 const template = require('./template');
+const usuarios = require('./usuarios');
 
 module.exports = (req, res) => {
   const params = req.body;
   const { nome, email, senha } = params;
   const usuario = {nome, email, senha};
-  const usuarios = [];
 
   let status;
   let html;
